@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Login</title>
+  <link rel="stylesheet" href="signin.css" />
+</head>
+<body>
+  <main class="login-card" aria-labelledby="login-heading">
+    <header class="logo">
+      <div class="mark" aria-hidden="true">
+        <img src="images/WIT-ph-logo.png" alt="School Logo" class="school-logo" />
+      </div>
+      <div>
+        <h1 class="title" id="login-heading">Sign Up</h1>
+      </div>
+    </header>
+
+    <form action="#" method="post" autocomplete="on" novalidate>
+      <div class="field">
+        <label for="studentId">Student ID</label>
+        <input id="studentId" name="studentId" type="text" inputmode="numeric" pattern="[0-9]*" required />
+      </div>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" required />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required />
+      </div>
+
+      <button type="submit" class="submit">Sign In</button>
+    </form>
+  </main>
+</body>
+</html>
